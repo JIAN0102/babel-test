@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="300" viewBox="0 0 274 300">
+  <defs>
+    <clipPath id="clip-icon-proof-4">
+      <rect width="274" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="icon-proof-4" clip-path="url(#clip-icon-proof-4)">
+    <g id="Group_17791" data-name="Group 17791" transform="translate(-955 -1034)">
+      <g id="Group_17978" data-name="Group 17978" transform="translate(-814.01 969.957)">
+        <path id="Path_30226" data-name="Path 30226" d="M1791.264,116.045H1769.01l10.9-20.362a6.46,6.46,0,0,0,0-6.1l-10.9-20.362h22.257v35.668l0,.007Z" transform="translate(0 12.437)" fill="#404d61"/>
+        <path id="Path_30227" data-name="Path 30227" d="M1779.352,110.869V64.044h203.636v46.826Z" transform="translate(24.842)" fill="#404d61"/>
+        <path id="Path_30228" data-name="Path 30228" d="M1854.359,95.683l10.9,20.362h-22.254V69.221h22.254l-10.9,20.362A6.457,6.457,0,0,0,1854.359,95.683Z" transform="translate(177.751 12.437)" fill="#404d61"/>
+      </g>
+      <text id="操行成績" transform="translate(1092 1065)" fill="#fff" font-size="20" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-40" y="0">操行成績</tspan></text>
+      <text id="操行甲等_八十分以上_" data-name="操行甲等 (八十分以上)" transform="translate(1092 1129)" fill="#333" font-size="18" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-89.1" y="0">操行甲等 (八十分以上)</tspan></text>
+      <g id="Group_17974" data-name="Group 17974" transform="translate(506.116 -192.305)">
+        <g id="Group_17790" data-name="Group 17790" transform="translate(513.318 1352.305)">
+          <path id="Path_30205" data-name="Path 30205" d="M-1933.042,1578.25l23.619-40.725h52.517l-52.517,86.808Z" transform="translate(2013.201 -1536.019)" fill="#fff1d1"/>
+          <path id="Subtraction_27" data-name="Subtraction 27" d="M0,65.939H0V0A32.767,32.767,0,0,1,12.834,2.591a32.863,32.863,0,0,1,10.48,7.066,32.86,32.86,0,0,1,7.066,10.48,33.076,33.076,0,0,1,0,25.666,32.861,32.861,0,0,1-7.066,10.48,32.865,32.865,0,0,1-10.48,7.065A32.766,32.766,0,0,1,0,65.939Z" transform="translate(78.845 103.208)" fill="#fff1d1"/>
+          <g id="Group_17789" data-name="Group 17789">
+            <path id="Path_30202" data-name="Path 30202" d="M1679.386,130.637l50.337-86.043a2.325,2.325,0,0,0-2.008-3.5H1675.6a2.335,2.335,0,0,0-2.007,1.149l-22.717,38.831-22.719-38.831a2.325,2.325,0,0,0-2-1.149h-52.12a2.326,2.326,0,0,0-2,3.5l50.338,86.043a2.329,2.329,0,0,0,2.007,1.149h53.008A2.332,2.332,0,0,0,1679.386,130.637Zm-53.68-3.5L1578.09,45.744h46.727l47.618,81.394Zm27.864-41.46,23.362-39.934h46.732l-46.729,79.875Z" transform="translate(-1571.711 -41.095)" fill="#404d61" stroke="#404d61" stroke-width="1"/>
+            <path id="Path_30203" data-name="Path 30203" d="M1623.68,80.543a35.065,35.065,0,1,0,35.067,35.065A35.108,35.108,0,0,0,1623.68,80.543Zm0,65.482a30.417,30.417,0,1,1,30.418-30.417A30.454,30.454,0,0,1,1623.68,146.025Z" transform="translate(-1544.963 21.34)" fill="#404d61" stroke="#404d61" stroke-width="1"/>
+          </g>
+        </g>
+        <text id="甲" transform="translate(591.791 1503.691)" fill="#404d61" font-size="35" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700" letter-spacing="0.06em"><tspan x="-17.5" y="0">甲</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

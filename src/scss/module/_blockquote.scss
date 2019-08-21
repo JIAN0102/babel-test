@@ -1,0 +1,20 @@
+.m-blockquote {
+    display: flex;
+    justify-content: center;
+    .m-blockquote_content {
+        padding: 14px 0 0 75px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 36px;
+            background-image: url(../../images/icon/icon-blockquote.svg);
+            @include bgcover-center;
+        }
+        h4 {
+            margin-bottom: 10px;
+        }
+    }
+}

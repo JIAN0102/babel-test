@@ -1,0 +1,187 @@
+// achievement
+.p-achievement-intro {
+    .p-achievement-intro_title {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+.p-institution {
+    .p-institution_title {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .p-institution_list {
+        @include media-up(sm) {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -17.5px;
+        }
+    }
+    .p-institution_item {
+        margin-bottom: 35px;
+        @include media-up(sm) {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0 17.5px;
+        }
+        @include media-up(xl) {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+        }
+    }
+    .p-institution_inner {
+        padding: 50px;
+        border: 2px solid nth($bg, 1);
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            .p-institution_quantity {
+                opacity: 1;
+            }
+        }
+    }
+    .p-institution_badge {
+        max-width: 125px;
+        margin: 0 auto 10px;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .p-institution_quantity {
+        @include overlay;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 30px 50px;
+        background: linear-gradient(135deg, #FFD36D 0, #EB9055 100%);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        &:before {
+            content: '';
+            @include overlay;
+            background-size: auto 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-image: url(../../images/background/star-bg.svg);
+            animation: starlight 1s infinite;
+            @keyframes starlight {
+                0% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        }
+        h2, h4 {
+            color: $white;
+        }
+    }
+    .p-institution_amount {
+        padding: 30px;
+        border: 10px solid nth($bg, 1);
+        text-align: center;
+        @include media-up(md) {
+            padding: 60px;
+        }
+    }
+}
+
+.p-process {
+    .p-process_blockquote {
+        margin-bottom: 80px;
+    }
+    .p-process_main {
+        padding: 0 50px;
+        margin-bottom: 40px;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: nth($grayscale, 3);
+            z-index: 2;
+        }
+        @include media-up(md) {
+            padding: 0 75px;
+        }
+        @include media-up(xl) {
+            padding: 0 100px;
+        }
+    }
+    .p-process_inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        min-height: 210px;
+        padding: 40px 30px 50px;
+        text-align: center;
+        transition: padding 0.5s ease, background-color 0.5s ease;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 77px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 7px;
+            height: 7px;
+            background-color: nth($grayscale, 3);
+            border-radius: 50%;
+        }
+        h4 {
+            color: nth($grayscale, 3);
+            transition: font-size 0.5s ease, color 0.5s ease;
+        }
+        span {
+            font-size: 0.75rem;
+            color: nth($grayscale, 3);
+            transition: color 0.5s ease;  
+        }
+    }
+    .p-process_year {
+        margin-bottom: 37px;
+    }
+    .p-process_amount {
+        text-align: center;
+        .swiper-slide {
+            background-color: nth($bg, 1);
+        }
+    }
+    // swiper
+    .swiper-slide {
+        height: auto;
+    }
+    .swiper-slide-active {
+        .p-process_inner {
+            background-color: $white;
+            padding: 20px 30px 30px;
+            .p-process_year {
+                h4 {
+                    color: $primary;
+                }
+            }
+            h4 {
+                font-size: 1.25rem;
+                color: nth($grayscale, 1);
+                @include media-up(md) {
+                    font-size: 1.5rem;
+                }
+                @include media-up(xl) {
+                    font-size: 2rem;
+                }
+            }
+            span {
+                color: nth($grayscale, 1);
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="286" height="290" viewBox="0 0 286 290">
+  <defs>
+    <clipPath id="clip-faq-bg">
+      <rect width="286" height="290"/>
+    </clipPath>
+  </defs>
+  <g id="faq-bg" clip-path="url(#clip-faq-bg)">
+    <rect width="286" height="290" fill="#fff"/>
+    <g id="Component_22_1" data-name="Component 22 – 1">
+      <path id="Subtraction_28" data-name="Subtraction 28" d="M246.5-3143H0v-290H286.5v250l-40,40h0Z" transform="translate(0 3433)" fill="#f3f2ef"/>
+      <path id="Path_30212" data-name="Path 30212" d="M-2051.5,2778.137l-20.668,20.668v11.428l20.668-20.668Z" transform="translate(2338 -2539.637)" fill="#f3a200"/>
+    </g>
+  </g>
+</svg>

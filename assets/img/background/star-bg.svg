@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="262" viewBox="0 0 350 262">
+  <defs>
+    <clipPath id="clip-star-bg">
+      <rect width="350" height="262"/>
+    </clipPath>
+  </defs>
+  <g id="star-bg" clip-path="url(#clip-star-bg)">
+    <path id="Path_30320" data-name="Path 30320" d="M-1869.685,3341.328a17.111,17.111,0,0,1,11.915-12.359,17.118,17.118,0,0,1-11.915-12.36,17.117,17.117,0,0,1-11.915,12.36A17.109,17.109,0,0,1-1869.685,3341.328Z" transform="translate(2168.911 -3173.933)" fill="#ffe4a4" fill-rule="evenodd"/>
+    <path id="Path_30321" data-name="Path 30321" d="M-1869.685,3341.328a17.111,17.111,0,0,1,11.915-12.359,17.118,17.118,0,0,1-11.915-12.36,17.117,17.117,0,0,1-11.915,12.36A17.109,17.109,0,0,1-1869.685,3341.328Z" transform="translate(1923.1 -3283.6)" fill="#ffe4a4" fill-rule="evenodd"/>
+    <path id="Path_30322" data-name="Path 30322" d="M-1813.347,3346.531a12.088,12.088,0,0,1,8.418-8.728,12.087,12.087,0,0,1-8.418-8.729,12.08,12.08,0,0,1-8.415,8.729A12.08,12.08,0,0,1-1813.347,3346.531Z" transform="translate(2067.986 -3106.408)" fill="#ffe4a4" fill-rule="evenodd"/>
+  </g>
+</svg>

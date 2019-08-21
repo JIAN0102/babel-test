@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-icon-clock">
+      <rect width="15" height="15"/>
+    </clipPath>
+  </defs>
+  <g id="icon-clock" clip-path="url(#clip-icon-clock)">
+    <g id="Group_17760" data-name="Group 17760" transform="translate(-461.098 -2916)">
+      <path id="Path_30194" data-name="Path 30194" d="M468.591,2916a7.5,7.5,0,1,0,7.507,7.5A7.5,7.5,0,0,0,468.591,2916Zm.007,13.5a6,6,0,1,1,6-6A6,6,0,0,1,468.6,2929.5Z" fill="#aaa"/>
+      <path id="Path_30195" data-name="Path 30195" d="M499.631,2936.782h-1.125v4.5l3.938,2.362.563-.923-3.375-2Z" transform="translate(-30.658 -17.032)" fill="#aaa"/>
+    </g>
+  </g>
+</svg>

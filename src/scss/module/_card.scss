@@ -1,0 +1,67 @@
+// card
+.m-card {
+    .m-card_list {
+        @include media-up(md) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .m-card_item {
+        @include media-up(md) {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    .m-card_inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        min-height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 60px 30px;
+        &.m-card_inner--school {
+            background-position: center left;
+            @include media-down(md_1) {
+                &:before {
+                    content: '';
+                    @include overlay;
+                    background-color: rgba(255,228,163,0.75);
+                }
+            }
+        }
+        &.m-card_inner--apply {
+            background-position: center right;
+            @include media-down(md_1) {
+                &:before {
+                    content: '';
+                    @include overlay;
+                    background-color: rgba(255,212,110,0.75);
+                }
+            }
+        }
+        &.m-card_inner--achievement {
+            background-color: nth($bg, 1);
+            transition: background-color 0.5s ease;
+            &:hover {
+                background-color: #FFD46E;
+            }
+            .m-card_title {
+                display: flex;
+                align-items: center;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .m-card_title {
+        margin-bottom: 27px;
+        img {
+            display: block;
+            margin-right: 18px;
+        }
+        h3 {
+            margin: 3px 0;
+        }
+    }
+}

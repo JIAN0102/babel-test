@@ -1,0 +1,25 @@
+<svg id="Group_239" data-name="Group 239" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ccc;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ea4c3a;
+      }
+
+      .cls-3 {
+        fill: #999;
+      }
+    </style>
+  </defs>
+  <path id="Path_1914" data-name="Path 1914" class="cls-1" d="M18.056,0,1.444.018A1.442,1.442,0,0,0,0,1.458v33.1A1.442,1.442,0,0,0,1.444,36h23.1a1.442,1.442,0,0,0,1.444-1.44L26,7.92Z"/>
+  <path id="Path_1915" data-name="Path 1915" class="cls-2" d="M71.98,21.158l.007-.007-.007-.011Z" transform="translate(-45.987 -13.53)"/>
+  <path id="Path_1916" data-name="Path 1916" class="cls-2" d="M50.816.018,50.8,0,50.78.018Z" transform="translate(-32.443)"/>
+  <path id="Path_1917" data-name="Path 1917" class="cls-3" d="M51.933,7.92A1.931,1.931,0,0,1,50,5.987V0l7.92,7.92Z" transform="translate(-31.92)"/>
+</svg>

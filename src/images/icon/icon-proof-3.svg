@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="438" height="306" viewBox="0 0 438 306">
+  <defs>
+    <clipPath id="clip-icon-proof-3">
+      <rect width="438" height="306"/>
+    </clipPath>
+  </defs>
+  <g id="icon-proof-3" clip-path="url(#clip-icon-proof-3)">
+    <g id="Group_17792" data-name="Group 17792" transform="translate(-329 -1034)">
+      <g id="Group_17980" data-name="Group 17980" transform="translate(-26 -109)">
+        <g id="Group_17977" data-name="Group 17977" transform="translate(-1369.01 1078.957)">
+          <path id="Path_30226" data-name="Path 30226" d="M1791.264,116.045H1769.01l10.9-20.362a6.46,6.46,0,0,0,0-6.1l-10.9-20.362h22.257v35.668l0,.007Z" transform="translate(0 12.437)" fill="#404d61"/>
+          <path id="Path_30227" data-name="Path 30227" d="M1779.352,110.869V64.044h276.9v46.826Z" transform="translate(24.842)" fill="#404d61"/>
+          <path id="Path_30228" data-name="Path 30228" d="M1854.359,95.683l10.9,20.362h-22.254V69.221h22.254l-10.9,20.362A6.457,6.457,0,0,0,1854.359,95.683Z" transform="translate(251.017 12.437)" fill="#404d61"/>
+        </g>
+        <text id="前學年學業平均成績" transform="translate(574 1174)" fill="#fff" font-size="20" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-90" y="0">前學年學業平均成績</tspan></text>
+      </g>
+      <text id="在學學生_八十分以上_低收入戶在學學生_七十分以上_" data-name="在學學生(八十分以上)；低收入戶在學學生(七十分以上)" transform="translate(548 1129)" fill="#333" font-size="18" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-219.168" y="0">在學學生(八十分以上)；低收入戶在學學生(七十分以上)</tspan></text>
+      <g id="Group_18019" data-name="Group 18019" transform="translate(-2.5)">
+        <g id="Group_17982" data-name="Group 17982" transform="translate(661.074 -2395.778)">
+          <path id="Path_30231" data-name="Path 30231" d="M-103.722,3564.5h3.4a11.2,11.2,0,0,1,11.194,11.194v105.147a11.2,11.2,0,0,1-11.194,11.194H-156.5" transform="translate(85.786 12.267)" fill="none" stroke="#404d61" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+          <path id="Path_30232" data-name="Path 30232" d="M-166.617,3610.267V3644.4l12.173-12.172,12.173,12.172v-39.19" transform="translate(71.558 69.523)" fill="#404d61" stroke="#404d61" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+          <path id="Path_30233" data-name="Path 30233" d="M-110.418,3573.386l.65,113.112,24.543-10.315,27.744-2.49L-18.71,3686.5V3570.541l-30.59-13.872H-82.38l-21.342,8.892Z" fill="#fff1d1"/>
+          <path id="Path_30234" data-name="Path 30234" d="M-18.71,3573.386l-.65,113.112L-43.9,3676.183l-27.744-2.49-38.771,12.805V3570.541l30.59-13.872h33.08l21.342,8.892Z" transform="translate(-92)" fill="#fff"/>
+          <path id="Path_30229" data-name="Path 30229" d="M-119.559,3570.75s-38.5-33.688-91.441,0v116.708s45.72-28.876,91.441,0c45.72-28.876,91.441,0,91.441,0V3570.75C-81.058,3537.062-119.559,3570.75-119.559,3570.75Z" transform="translate(9.141 0)" fill="none" stroke="#404d61" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+          <line id="Line_827" data-name="Line 827" y2="117.91" transform="translate(-110.418 3569.547)" fill="none" stroke="#404d61" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+          <path id="Path_30230" data-name="Path 30230" d="M-96.293,3692.035H-206.306a11.2,11.2,0,0,1-11.194-11.194V3575.694a11.2,11.2,0,0,1,11.194-11.194h4.348" transform="translate(0 12.267)" fill="none" stroke="#404d61" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+          <text id="在_學" data-name="在
+學" transform="translate(-156.073 3609.876)" fill="#404d61" font-size="32" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="-16" y="0">在</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI"></tspan><tspan x="-16" y="39">學</tspan></text>
+          <text id="低_收" data-name="低
+收" transform="translate(-66.073 3609.876)" fill="#404d61" font-size="32" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="-16" y="0">低</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI"></tspan><tspan x="-16" y="39">收</tspan></text>
+        </g>
+        <g id="Group_18018" data-name="Group 18018" transform="translate(-9.5)">
+          <path id="Union_2" data-name="Union 2" d="M8.5,95.14A8.5,8.5,0,0,1,0,86.64v-56a8.5,8.5,0,0,1,8.5-8.5H36.422V0l22.14,22.14H74.5a8.5,8.5,0,0,1,8.5,8.5v56a8.5,8.5,0,0,1-8.5,8.5Z" transform="translate(630.5 1240)" fill="#fff1d1" stroke="#404d61" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <text id="_70" data-name="70" transform="translate(664 1311.5)" fill="#404d61" font-size="35" font-family="SegoeUIBlack, Segoe UI" letter-spacing="0.06em"><tspan x="-22.019" y="0">70</tspan></text>
+          <text id="分" transform="translate(690 1308.5)" fill="#404d61" font-size="15" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">分</tspan></text>
+        </g>
+        <g id="Group_18017" data-name="Group 18017" transform="translate(10)">
+          <path id="Union_2-2" data-name="Union 2" d="M36.422,73H8.5A8.5,8.5,0,0,1,0,64.5V8.5A8.5,8.5,0,0,1,8.5,0h66A8.5,8.5,0,0,1,83,8.5v56A8.5,8.5,0,0,1,74.5,73H58.562L36.422,95.14Z" transform="translate(470.5 1337.14) rotate(180)" fill="#fff" stroke="#404d61" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <text id="_80" data-name="80" transform="translate(421 1311.5)" fill="#404d61" font-size="35" font-family="SegoeUIBlack, Segoe UI" letter-spacing="0.06em"><tspan x="-22.019" y="0">80</tspan></text>
+          <text id="分-2" data-name="分" transform="translate(447 1308.5)" fill="#404d61" font-size="15" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">分</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

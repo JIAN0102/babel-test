@@ -1,0 +1,97 @@
+// hero
+.m-hero {
+    .m-hero_item {
+        height: calc(100vh - 100px);
+        @include media-up(lg) {
+            height: 100vh;
+        }
+    }
+    .m-hero_bg, .m-hero_bg--mobile {
+        @include overlay;
+        @include bgcover-center;
+    }
+    .m-hero_bg {
+        display: none;
+        @include media-up(md) {
+            display: block;
+        }
+    }
+    .m-hero_bg--mobile {
+        display: block;
+        @include media-up(md) {
+            display: none;
+        }
+    }
+    .swiper-slide-active, .swiper-slide-duplicate-active {
+        .m-hero_content {
+            span {
+                &:before {
+                    width: 100%;
+                }
+                &:nth-child(1) {
+                    &:before {
+                        transition-delay: 1.125s;
+                    }
+                }
+                &:nth-child(2) {
+                    &:before {
+                        transition-delay: 1.25s;
+                    }
+                }
+            }
+        }
+    }
+    .m-hero_content {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 100%;
+        padding: 0 30px;
+        margin-top: -55px;
+        @include media-up(md) {
+            padding: 0 60px;
+        }
+        @include media-up(xl) {
+            padding: 0 80px;
+        }
+        h1 {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 60px;
+        }
+        span {
+            align-self: flex-start;
+            &:before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 20px;
+                background-color: $primary--light;
+                transition: width 0.5s ease;
+                z-index: -1;
+            }
+        }
+        &.m-hero_content--dark {
+            h1 {
+                color: nth($grayscale, 1);
+            }
+            .c-btn_text {
+                color: nth($grayscale, 1);
+            }
+        }
+        &.m-hero_content--light {
+            h1 {
+                color: $white;
+            }
+            .c-btn_icon {
+                fill: $white;
+            }
+            .c-btn_text {
+                color: $white;
+            }
+        }
+    }
+}

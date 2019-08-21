@@ -1,0 +1,19 @@
+.nav {
+    background-color: transparent;
+    transition: background-color 0.3s ease, height 0.3s ease;
+}
+
+.wrap-nav {
+    //padding-right: 10%;
+    height: $headerHeightDesktop;
+    width: 100%;
+    //border: 1px solid #ff0;
+    text-align: right;
+    font-size: 0;
+    vertical-align: top;
+    a {
+        color: #fff;
+        font-size: 1.125rem;
+        padding: 0 2rem;
+    }
+}

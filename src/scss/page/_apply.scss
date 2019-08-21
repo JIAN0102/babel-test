@@ -1,0 +1,395 @@
+// apply
+.p-apply-intro {
+    .p-apply-intro_title {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .p-apply-intro_blockquote {
+        margin-bottom: 60px;
+    }
+    .p-apply-intro_list {
+        @include media-up(md) {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -40px;
+        }
+    }
+    .p-apply-intro_item {
+        text-align: center;
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+        @include media-up(md) {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+            padding: 0 40px;
+            &:not(:last-child) {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .m-tab_list {
+        margin-bottom: 40px;
+    }
+}
+
+.p-condition {
+    .p-condition_header {
+        margin-bottom: 40px;
+        text-align: center;
+        img {
+            position: absolute;
+            top: -256px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+    .p-condition_item {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        h3 {
+            color: $primary;
+            margin-bottom: 10px;
+        }
+        li {
+            padding-left: 16px;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 12px;
+                left: 0;
+                width: 8px;
+                height: 8px;
+                background-color: $primary;
+                border-radius: 2px;
+            }
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .p-condition_proof {
+        margin-bottom: 80px;
+    }
+    .p-condition_proof--vertical {
+        .p-condition_proof-item {
+            @include media-up(md) {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            &:not(:last-child) {
+                padding-bottom: 25px;
+                border-bottom: 1px dotted nth($grayscale, 3);
+            }
+            &:not(:first-child) {
+                padding-top: 25px;
+            }
+        }
+        .p-condition_proof-icon {
+            max-width: 200px;
+            margin: 0 auto 30px;
+            @include media-up(md) {
+                flex: 0 0 30%;
+                max-width: 30%;
+                margin: 0;
+            }
+        }
+        .p-condition_proof-content {
+            @include media-up(md) {
+                flex: 0 0 70%;
+                max-width: 70%;
+            }
+            li {
+                padding-left: 30px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 6px;
+                    left: 0;
+                    width: 22px;
+                    height: 22px;
+                    background-image: url(../../images/icon/icon-check.svg);
+                    @include bgcover-center;
+                }
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .p-condition_proof--horizontal {
+        @include media-up(md) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .p-condition_proof-item {
+            &:first-child {
+                @include media-down(md_1) {
+                    padding-bottom: 30px;
+                    border-bottom: 1px dotted nth($grayscale, 3);
+                }
+                @include media-up(md) {
+                    flex: 0 0 60%;
+                    max-width: 60%;
+                    padding-right: 60px;
+                    border-right: 1px dotted nth($grayscale, 3);
+                }
+                @include media-up(xl) {
+                    padding-right: 80px;
+                }
+            }
+            &:last-child {
+                @include media-down(md_1) {
+                    padding-top: 30px;
+                }
+                @include media-up(md) {
+                    flex: 0 0 40%;
+                    max-width: 40%;
+                    padding-left: 60px;
+                }
+                @include media-up(xl) {
+                    padding-left: 80px;
+                }
+            }
+        }
+    }
+}
+
+.p-download {
+    .p-download_list {
+        @include media-up(md) {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -5px;
+        }
+    }
+    .p-download_item {
+        padding: 0 2.5px;
+    }
+    .p-download_item--aside {
+        @include media-up(md) {
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 40%;
+            max-width: 40%;
+        }
+        .p-download_link {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            flex: 1;
+            min-height: 180px;
+
+            background-color: nth($bg, 1);
+            padding: 40px 30px;
+            margin-bottom: 5px;
+            text-align: center;
+            transition: background-color 0.5s ease;
+            &:hover {
+                background-color: #FFD46E;
+            }
+            @include media-up(md) {
+                min-height: auto;
+                margin-bottom: 0;
+                &:not(:last-child) {
+                    margin-bottom: 5px;
+                }
+            }
+            @include media-up(xl) {
+                padding: 42px 60px;
+            }
+            p {
+                font-size: 0.875rem;
+                color: nth($grayscale, 2);
+                margin-top: 15px;
+                @include media-up(md) {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .p-download_item--main {
+        @include media-up(md) {
+            flex: 0 0 60%;
+            max-width: 60%;
+        }
+        .p-download_content {
+            height: 100%;
+            background-color: nth($bg, 1);
+            padding: 40px;
+            @include media-up(md) {
+                padding: 60px 80px;
+            }
+            @include media-up(xl) {
+                padding: 60px 140px;
+            }
+        }
+        .p-download_title {
+            margin-bottom: 30px;
+        }
+        .p-download_file-item {
+            border-top: 1px dotted nth($grayscale, 3);
+            &:last-child {
+                border-bottom: 1px dotted nth($grayscale, 3);
+            }
+        }
+        .p-download_file-link {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 17px 20px;
+            transition: background-color 0.5s ease;
+            &:hover {
+                background-color: $secondary;
+                svg {
+                    fill: $white;
+                }
+                h4 {
+                    color: $white;
+                }
+            }
+            svg {
+                fill: nth($grayscale, 1);
+                transition: fill 0.5s ease;
+            }
+            h4 {
+                margin-left: 10px;
+                transition: color 0.5s ease;
+            }
+        }
+    }
+    .p-download_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            margin-left: 20px;
+        }
+    }
+}
+
+.p-faq {
+    .p-faq_title {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .p-faq_list {
+        @include media-up(sm) {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -10px -20px;
+        }
+    }
+    .p-faq_item {
+        margin-bottom: 20px;
+        @include media-up(sm) {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0 10px;
+        }
+        @include media-up(xl) {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+        }
+    }
+    .p-faq_inner {
+        display: flex;
+        align-items: center;
+        min-height: 290px;
+        background-image: url(../../images/background/faq-bg.svg);
+        background-size: cover;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        padding: 30px;
+        cursor: pointer;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 4px;
+            background-color: $primary;
+            transition: width 0.5s ease;
+        }
+        &:hover {
+            &:after {
+                width: 100%;
+            }
+        }
+        &.active {
+            &:after {
+                width: 100%;
+            }
+        }
+    }
+    .p-faq_info {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        width: 80%;
+        max-width: 600px;
+        min-height: 290px;
+
+        background-image: url(../../images/background/faq-info-bg.svg);
+        background-size: cover;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+
+        opacity: 0;
+        visibility: hidden;
+        transition: transform 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
+        z-index: 1001;
+        &.active {
+            transform: translate(-50%, -50%);
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .p-faq_question {
+        padding: 30px;
+        border-bottom: 1px solid rgba($white, 0.5);
+        @include media-up(md) {
+            padding: 30px 50px;
+        }
+        h4 {
+            color: $white;
+        }
+    }
+    .p-faq_content {
+        padding: 30px;
+        @include media-up(md) {
+            padding: 30px 50px;
+        }
+        p {
+            color: rgba($white, 0.7);
+        }
+    }
+    .p-faq_overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($black, 0.8);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+        pointer-events: none;
+        z-index: 1000;
+        cursor: pointer;
+        &.active {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+    }
+}

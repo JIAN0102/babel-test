@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="594" height="290" viewBox="0 0 594 290">
+  <defs>
+    <clipPath id="clip-faq-info-bg">
+      <rect width="594" height="290"/>
+    </clipPath>
+  </defs>
+  <g id="faq-info-bg" clip-path="url(#clip-faq-info-bg)">
+    <path id="Subtraction_26" data-name="Subtraction 26" d="M2914.5,290H2361V0h593.5V250l-40,40Z" transform="translate(-2361)" fill="#404d61"/>
+    <path id="Path_30214" data-name="Path 30214" d="M-2051.5,2778.137l-20.668,20.668v11.428l20.668-20.668Z" transform="translate(2645 -2539.537)" fill="#f3a200"/>
+  </g>
+</svg>

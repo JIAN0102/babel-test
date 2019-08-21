@@ -1,0 +1,101 @@
+// news
+.m-news {
+    overflow: hidden;
+    .m-news_list {
+        margin: 0 0 -40px;
+        @include media-up(md) {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -30px -72px;
+        }
+    }
+    .m-news_item {
+        margin-bottom: 40px;
+        @include media-up(md) {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0 30px;
+            margin-bottom: 72px;
+        }
+    }
+    .m-news_link {
+        display: flex;
+        flex-wrap: wrap;
+        &:hover {
+            .m-news_date {
+                box-shadow: 0 10px 20px rgba($black, 0.1);
+                &:before {
+                    transform: scaleY(1);
+                }
+                h2, h4 {
+                    color: $white;
+                }
+            }
+        }
+    }
+    .m-news_date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        flex: 0 0 85px;
+        max-width: 85px;
+        height: 85px;
+        background-color: nth($grayscale, 6);
+        transition: box-shadow 0.5s ease;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $primary--light;
+            transform-origin: 100% 0;
+            transform: scaleY(0);
+            transition: transform 0.5s ease;
+        }
+        h2, h4 {
+            line-height: 1.25;
+            transition: color 0.4s ease;
+        }
+    }
+    .m-news_content {
+        flex: 1;
+        padding: 5px 0 20px 0;
+        margin-left: 25px;
+        border-bottom: 1px solid nth($grayscale, 5);
+        @include media-up(md) {
+            padding: 5px 20px 20px 0;
+        }
+    }
+    .m-news_title {
+        margin-bottom: 12px;
+    }
+    .m-news_detail {
+        @include media-up(sm) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+    .m-news_category {
+        display: flex;
+        margin: 0 0 5px 0;
+        @include media-up(sm) {
+            margin: 0 22px 0 0;
+        }
+        h4 {
+            color: $primary;
+            margin-left: 8px;
+        }
+    }
+    .m-news_time {
+        display: flex;
+        h4 {
+            color: nth($grayscale, 2);
+            margin-left: 8px;
+        }
+    }
+}

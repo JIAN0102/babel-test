@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="82" viewBox="0 0 99 82">
+  <defs>
+    <clipPath id="clip-icon-a_">
+      <rect width="99" height="82"/>
+    </clipPath>
+  </defs>
+  <g id="icon-a_" data-name="icon-a+" clip-path="url(#clip-icon-a_)">
+    <g id="Group_17784" data-name="Group 17784" transform="translate(-235 -2089)">
+      <text id="A" transform="translate(245 2152)" fill="#333" font-size="55" font-family="NotoSerifTC-Black, Noto Serif TC" font-weight="800" letter-spacing="0.06em"><tspan x="0" y="0">A</tspan></text>
+      <text id="_" data-name="+" fill="#333" stroke="#333" transform="translate(324 2152)" stroke-width="2" font-size="55" font-family="NotoSerifTC-Black, Noto Serif TC" font-weight="800" letter-spacing="0.06em"><tspan x="-33.825" y="0">+</tspan></text>
+    </g>
+  </g>
+</svg>
